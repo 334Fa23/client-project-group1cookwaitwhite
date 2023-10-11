@@ -1,3 +1,8 @@
+/* SaSS */
+$green: #25683B;
+$headerfonts: Tropikal, Perpetua, serif;
+$bodyfonts: DM Sans, Gill Sans MT, sans-serif;
+
 /* CSS Reset */
 body, header, nav, main {
   margin: 0;
