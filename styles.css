@@ -31,30 +31,81 @@ main {
 }
 
 /* Style rules for footer content */
-footer .copyright {
-  font-size: 0.75em;
-  text-align: center;
-  color: #fff;
-  padding: 2% 4%;
-    float: left;
-    width: 75%;
+
+body {
+  font-family: DM Sans, Gill Sans MT, Sans-Serif
+  margin: 0;
+  padding: 0;
 }
 
-footer p a {
+.content {
+  padding: 20px;
+}
+
+footer {
+  background-color: #25683B;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+Flex-direction: column;
+  align-items: left;
+text-align: left;
+}
+
+.footer-logo img {
+  width: 100px; 
+  height: auto; 
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-links li a {
   color: #fff;
   text-decoration: none;
 }
 
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.footer-social a {
+  margin-left: 10px; 
+}
+
+.copyright {
+  margin: 0;
+    text-align:right;
+}
+
 .social {
-    float: right;
-    width: 20%;
-    padding: 2%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1; 
+}
+
+.social a {
+  margin-left: 10px;
 }
 
 .social img {
-    display: inline-block;
-    padding: 5%;
+  width: 30px;
+  height: auto;
 }
+
+
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
