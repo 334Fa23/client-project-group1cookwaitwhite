@@ -27,6 +27,34 @@ header img {
   margin: 0 auto;
 }
 
+/* Style rules for nav area */
+nav {
+	padding: 1%;
+    margin-bottom: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.5em;
+    font-family: 'Tropikal, Perpetua, Serif;
+    border-top: 1px solid #25683B;
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
 /* Style rules for main content */
 main {
   background-color: #fff;
@@ -131,8 +159,8 @@ text-align: left;
 
   /* Tablet Viewport: Style rules for nav area */
   nav {
-    padding: 1%;
-    margin-bottom: 1%;
+    padding: 10%;
+    margin-bottom: %;
   }
 
   nav ul {
@@ -151,7 +179,7 @@ text-align: left;
   nav li a {
     padding: 0.1em 0.75em;
     display: block;
-    color: #fff;
+    color: #25683B;
     text-decoration: none;
   }
 
@@ -172,8 +200,9 @@ text-align: left;
 
   /* Desktop Viewport: Style rules for nav area */
   nav {
+      display:block:
     float: right;
-    width: 70%;
+    width: 80%;
     margin: 4em 1em 0 0;
   }
 
@@ -191,7 +220,7 @@ text-align: left;
 
   nav li a:hover {
     color: #000;
-    background-color: #fff;
+    background-color: #25683B;
     transform: scale(1.3);
   }
 
