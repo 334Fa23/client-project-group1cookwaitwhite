@@ -29,13 +29,13 @@ header img {
 
 /* Style rules for nav area */
 nav {
-	padding: 1%;
+	padding: 100%;
     margin-bottom: 1%;
 }
 
 nav ul {
     list-style-type: none;
-    text-align: center;
+    text-align: right;
 }
 
 nav li {
