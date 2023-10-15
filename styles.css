@@ -63,6 +63,21 @@ main {
   font-family: 'Roboto Slab', serif;
 }
 
+.column {
+    float: left;
+    padding: 2%;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.calendar {
+    background-color: #25683B;
+    content: center;
+}
+
 /* Style rules for footer content */
 
 body {
