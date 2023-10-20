@@ -59,14 +59,31 @@ nav li a {
 /* Style rules for main content */
 main {
   background-color: #fff;
-  padding: 2%;
+  padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
   font-size: 1.15em;
-  font-family: 'Roboto Slab', serif;
+  font-family: "DM Sans", "Gill Sans MT", sans-serif;
+}
+
+h1 {
+    font-family: Tropikal, Perpetua, serif;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: Tropikal, Perpetua, serif;
+    font-size: 1.75em; 
 }
 
 .column {
     float: left;
     padding: 2%;
+}
+
+.colform {
+    clear: both;
 }
 
 .responsive {
@@ -76,13 +93,20 @@ main {
 
 .calendar {
     background-color: #25683B;
-    content: center;
+    text-align: center;
+    padding: 2%;
+}
+
+.colevents {
+    column-count: 2;
+    column-gap: 20px;
+    column-span: 2;
 }
 
 /* Style rules for footer content */
 
 body {
-  font-family: DM Sans, Gill Sans MT, Sans-Serif
+  font-family: "DM Sans", "Gill Sans MT", Sans-Serif
   margin: 0;
   padding: 0;
 }
