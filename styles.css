@@ -28,7 +28,7 @@ header img {
 }
 
 /* Style rules for nav area */
-nav {
+.mobile-nav {
 	padding: 100%;
     margin-bottom: 1%;
 }
@@ -39,8 +39,9 @@ nav ul {
 }
 
 nav li {
+    
     font-size: 1.5em;
-    font-family: 'Tropikal, Perpetua, Serif;
+    font-family: Tropikal, Perpetua, Serif;
     border-top: 1px solid #25683B;
 }
 
