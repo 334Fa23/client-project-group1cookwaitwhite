@@ -77,14 +77,10 @@ h2 {
     font-size: 1.75em; 
 }
 
-.column {
-    float: left;
-    padding: 2%;
-}
-
-.colform {
-    clear: both;
-}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    }
 
 .responsive {
     width: 100%;
