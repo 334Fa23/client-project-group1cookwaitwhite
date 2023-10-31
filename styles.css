@@ -175,8 +175,8 @@ textarea {
 }
 
 .Kuparimg {
-    height: 50%;
-    width: 50%;
+    height: auto;
+    width: 100%;
 }
 
 
@@ -203,7 +203,7 @@ img {
 }
 
 .grid-container3 {
-    display:grid;
+    display: grid;
     grid-template-columns: auto auto;
     width: 80%;
     margin: auto;
@@ -226,9 +226,11 @@ img {
 .packagecol3 {
     padding-bottom: 10px
 }
+
 .packagecol3 img {
     height: 20%;
 }
+
 .packagecol img {
     height: 20%;
 }
