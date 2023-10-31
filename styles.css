@@ -24,6 +24,7 @@ body {
     text-align: center;
     color: white;
     text-decoration: none;
+    text-decoration-color: white;
 }
 
 .headerlogo {
@@ -73,6 +74,7 @@ main {
     padding-top: 2%;
     font-size: 1.15em;
     font-family: "DM Sans", "Gill Sans MT", sans-serif;
+    font text-decoration-color: darkgreen;
 }
 
 h1 {
@@ -86,10 +88,19 @@ h2 {
 }
 
 .responsive {
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 15em;
 }
 
+/* About Page CSS */
+.mainid {
+    background-color: #fff;
+    font-family:"DM Sans", "Gill Sans MT", sans-serif;
+    font text-decoration-color: darkgreen;
+}
+.div{
+    font-family:
+}
 /* Contact Page CSS */
 .gridform {
     background-color: #25683B;
