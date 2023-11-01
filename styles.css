@@ -12,9 +12,9 @@ main {
 body {
     background-color: #ffffff;
 }
-container {
-    
-}
+
+container {}
+
 /* Style rules for mobile viewport */
 
 
@@ -30,11 +30,13 @@ container {
 .headerlogo {
     width: 75%;
     height: 50px;
-   
+
 }
+
 #logo {
     padding: 10px;
 }
+
 /* Style rules for nav area */
 .mobile-nav a {
     text-align: center;
@@ -95,12 +97,14 @@ h2 {
 /* About Page CSS */
 .mainid {
     background-color: #fff;
-    font-family:"DM Sans", "Gill Sans MT", sans-serif;
+    font-family: "DM Sans", "Gill Sans MT", sans-serif;
     font text-decoration-color: darkgreen;
 }
-.div{
+
+.div {
     font-family:
 }
+
 /* Contact Page CSS */
 .gridform {
     background-color: #25683B;
@@ -186,6 +190,8 @@ textarea {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 5px;
+    width: 100%;
+    height: auto;
 }
 
 .box {
@@ -198,11 +204,6 @@ textarea {
     overflow: hidden;
 }
 
-.gallery {
-    width: 100%;
-    height: auto;
-}
-
 .grid-container3 {
     display: grid;
     grid-template-columns: auto auto;
@@ -211,9 +212,14 @@ textarea {
     grid-gap: 50px;
 }
 
-.grid-item {
-    padding: 100px;
+.grid-item4 {
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    width: 100;
 }
+
+
 
 .placeholder {
     height: auto;
@@ -229,16 +235,13 @@ textarea {
 
 /*Travel packages*/
 
-.packagecol3 {
+.packagecol {
     padding-bottom: 10px
 }
 
-.packagecol3 img {
-    height: 20%;
-}
-
-.packagecol img {
-    height: 20%;
+.packageimg {
+    max-width: 100%;
+    height: auto;
 }
 
 .grid-container2 {
