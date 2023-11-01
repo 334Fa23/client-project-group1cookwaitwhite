@@ -12,29 +12,29 @@ main {
 body {
     background-color: #ffffff;
 }
-
+container {
+    
+}
 /* Style rules for mobile viewport */
 
 
 /* Style rule for header */
 #header {
     background-color: #25683B;
-    height: 190px;
     color: #ffffff;
-    text-align: center;
     color: white;
     text-decoration: none;
     text-decoration-color: white;
 }
 
 .headerlogo {
-    width: 10%;
+    width: 75%;
     height: 50px;
-    padding: 2%;
-    padding-top: 5%;
-    padding-left: 10%;
+   
 }
-
+#logo {
+    padding: 10px;
+}
 /* Style rules for nav area */
 .mobile-nav a {
     text-align: center;
@@ -74,7 +74,7 @@ main {
     padding-top: 2%;
     font-size: 1.15em;
     font-family: "DM Sans", "Gill Sans MT", sans-serif;
-    font text-decoration-color: darkgreen;
+    text-decoration-color: darkgreen;
 }
 
 h1 {
