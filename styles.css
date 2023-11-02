@@ -90,8 +90,8 @@ h2 {
 }
 
 .responsive {
-    width: 50%;
-    height: 15em;
+    width: 100%;
+    height: auto;
 }
 
 /* About Page CSS */
@@ -138,6 +138,12 @@ textarea {
     display: inline-block;
     padding-right: 100px;
     padding-left: 100px;
+}
+
+.iconresponsive {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
 }
 
 /* Events Page CSS */
