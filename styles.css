@@ -22,49 +22,39 @@ container {}
 #header {
     background-color: #25683B;
     color: #ffffff;
-    color: white;
     text-decoration: none;
-    text-decoration-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    display: grid;
+    grid: 100px / 1fr 6fr;
+    grid-gap: 10px;
 }
 
 .headerlogo {
-    width: 75%;
-    height: 50px;
-
+    width: 70%;
+    height: auto;
 }
 
 #logo {
     padding: 10px;
 }
 
+
 /* Style rules for nav area */
-.mobile-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-}
 
-nav ul {
-    list-style-type: none;
+.mobile-nav,
+.tablet-desktop {
     text-align: right;
+    padding-top: 40px;
 }
 
-nav li {
-
-    font-size: 1.5em;
-    font-family: Tropikal, Perpetua, Serif;
-    border-top: 1px solid #25683B;
-}
-
-nav li:first-child {
-    border-top: none;
-}
-
-nav li a {
-    display: block;
-    color: #fff;
-    padding: 0.5em 1em;
+.anav {
     text-decoration: none;
+    color: white;
+    font-family: Tropikal, Perpetua, serif;
+    font-size: 1.5em;
+    margin-left: .7em;
 }
 
 /* Style rules for main content */
@@ -76,7 +66,7 @@ main {
     padding-top: 2%;
     font-size: 1.15em;
     font-family: "DM Sans", "Gill Sans MT", sans-serif;
-    text-decoration-color: darkgreen;
+    text-decoration-color: #25683B;
 }
 
 h1 {
@@ -98,11 +88,7 @@ h2 {
 .mainid {
     background-color: #fff;
     font-family: "DM Sans", "Gill Sans MT", sans-serif;
-    font text-decoration-color: darkgreen;
-}
-
-.div {
-    font-family:
+    font text-decoration-color: #25683B;
 }
 
 /* Contact Page CSS */
@@ -222,7 +208,7 @@ textarea {
     align-items: center;
     padding: 20px;
     height: auto;
-    width: 100;
+    width: 100%;
 }
 
 
@@ -299,13 +285,12 @@ footer {
     padding-right: 10%;
     padding-top: 2%;
     padding-bottom: 2%;
-    min-width: 75%%
+    min-width: 75%;
 }
 
 .footer-content {
     display: flex;
     Flex-direction: column;
-    align-items: left;
     text-align: left;
 }
 
