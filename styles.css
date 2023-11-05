@@ -6,6 +6,7 @@ main {
     margin: 0;
     padding: 0;
     border: 0;
+    display: block;
 }
 
 /* Style rules for body and images */
@@ -43,10 +44,14 @@ container {}
 
 /* Style rules for nav area */
 
-.mobile-nav,
 .tablet-desktop {
-    text-align: right;
-    padding-top: 40px;
+    display: none;
+}
+
+.mobile-nav {
+    text-align: center;
+
+
 }
 
 .anav {
@@ -274,10 +279,6 @@ body {
     padding: 0;
 }
 
-.content {
-    padding: 20px;
-}
-
 footer {
     background-color: #25683B;
     color: #fff;
@@ -347,51 +348,80 @@ footer {
 }
 
 
+/* Media Query for Mobile Viewport */
+@media screen and (max-width: 630px),
+print {
+
+    /* Mobile Header */
+    .tablet-desktop {
+        display: none;
+    }
+
+    .headerlogo {
+        width: 130%;
+        height: auto;
+    }
+
+    /* Mobile Contact Page */
+    .colcontact1,
+    .gridform {
+        grid-template-columns: 1fr;
+    }
+    
+    
+
+}
 
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px),
 print {
 
+
     /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
     .tablet-desktop {
         display: block;
     }
 
-    .mobile,
     .mobile-nav {
         display: none;
     }
 
-    /* Tablet Viewport: Style rule for header */
-    header {
-        padding-bottom: 2%;
-    }
-
-    /* Tablet Viewport: Style rules for nav area */
-    nav {
-        padding: 10%;
-        margin-bottom: 10%;
-    }
-
-    nav ul {
-        list-style-type: none;
-        text-align: center;
-    }
-
-    nav li {
-        font-size: 1.5em;
-        font-family: 'Francois One', sans-serif;
-        display: inline-block;
-        border-right: 1px solid #fff;
-    }
-
-
-    nav li a {
-        padding: 0.1em 0.75em;
-        display: block;
-        color: #25683B;
+    #header {
+        background-color: #25683B;
+        color: #ffffff;
         text-decoration: none;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 2%;
+        display: grid;
+        grid: 100px / 1fr 6fr;
+        grid-gap: 10px;
+    }
+
+    .headerlogo {
+        width: 100%;
+        height: auto;
+    }
+
+    #logo {
+        padding: 10px;
+    }
+
+
+    /* Style rules for nav area */
+
+    .tablet-desktop {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .anav {
+        text-decoration: none;
+        color: white;
+        font-family: Tropikal, Perpetua, serif;
+        font-size: 1.5em;
+        margin-left: .7em;
     }
 
     /* Tablet Viewport: Style rules for main content area */
@@ -403,37 +433,52 @@ print {
 @media screen and (min-width: 1015px),
 print {
 
-    /* Desktop Viewport: Style rule for header */
-    header {
-        width: 25%;
-        float: left;
-        padding-bottom: 0;
-    }
-
-    /* Desktop Viewport: Style rules for nav area */
-    nav {
+    #container {
         display: block;
-        float: right;
-        width: 80%;
-        margin: 4em 1em 0 0;
     }
 
-    nav ul {
-        text-align: right;
-    }
-
-    nav li {
-        border: none;
-    }
-
-    nav li a {
-        padding: 0.5em 1em;
-    }
-
-    nav li a:hover {
-        color: #000;
+    /* Desktop Viewport: Style rule for header */
+    #header {
         background-color: #25683B;
-        transform: scale(1.3);
+        color: #ffffff;
+        text-decoration: none;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 2%;
+        display: grid;
+        grid: 100px / 1fr 6fr;
+        grid-gap: 10px;
+    }
+
+    .headerlogo {
+        width: 70%;
+        height: auto;
+    }
+
+    #logo {
+        padding: 10px;
+    }
+
+
+    /* Style rules for nav area */
+
+    .tablet-desktop {
+        text-align: right;
+        padding-top: 40px;
+    }
+
+    .mobile-nav {
+        text-align: center;
+
+
+    }
+
+    .anav {
+        text-decoration: none;
+        color: white;
+        font-family: Tropikal, Perpetua, serif;
+        font-size: 1.5em;
+        margin-left: .7em;
     }
 
     /* Desktop Viewport: Style Rules for main content */
