@@ -27,6 +27,7 @@ container {}
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 2%;
+    padding-bottom: 2%;
     display: grid;
     grid: 100px / 1fr 6fr;
     grid-gap: 10px;
@@ -112,7 +113,7 @@ textarea {
 
 .gridcontact {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     column-gap: 20px;
     align-content: center;
     line-height: 30px;
@@ -132,9 +133,9 @@ textarea {
 }
 
 .iconresponsive {
-    width: 100%;
-    height: auto;
-    padding-top: 25px;
+    width: 40px;
+    height: 40px;
+    padding-left: 225px;
 }
 
 /* Events Page CSS */
@@ -146,19 +147,15 @@ textarea {
     text-align: center;
 }
 
-.gridevents {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 20px;
-    padding: 50px;
-    align-content: center;
+.coleventspic2 {
+    display: none;
 }
 
-.colevents {
+.colevents1, .colevents2, .colevents3 {
     text-align: left;
-    padding: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
 }
+
 
 /*External comapnaies*/
 
@@ -251,20 +248,7 @@ textarea {
 
 
 
-.colevents1 {
-    text-align: left;
-    padding-top: 50px;
-}
 
-.colevents2 {
-    text-align: left;
-    padding-top: 150px;
-}
-
-.colevents3 {
-    text-align: left;
-    padding-top: 40px;
-}
 
 
 
@@ -367,8 +351,8 @@ print {
     .gridform {
         grid-template-columns: 1fr;
     }
-    
-    
+
+
 
 }
 
@@ -426,6 +410,59 @@ print {
 
     /* Tablet Viewport: Style rules for main content area */
 
+
+    /* Contact Page */
+
+    .gridcontact {
+        grid-template-columns: auto auto;
+
+    }
+
+    .iconresponsive {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    /* Events Page */
+    .colevents,
+    .coleventspic2 {
+        text-align: left;
+        padding: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .coleventspic2 {
+        display: block;
+    }
+
+    .gridevents {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        padding: 50px;
+        align-content: center;
+    }
+
+    .coleventspic1 {
+        display: none;
+    }
+    
+    .colevents1 {
+    text-align: left;
+    padding-top: 50px;
+}
+
+.colevents2 {
+    text-align: left;
+    padding-top: 150px;
+}
+
+.colevents3 {
+    text-align: left;
+    padding-top: 40px;
+}
+
+}
 
 }
 
