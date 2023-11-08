@@ -380,7 +380,7 @@ print {
         padding-left: 10%;
         padding-right: 10%;
         padding-top: 2%;
-        padding-bottom: 2%;
+        padding-bottom: 3%;
         display: grid;
         grid: 100px / 1fr 6fr;
         grid-gap: 10px;
@@ -389,11 +389,9 @@ print {
     .headerlogo {
         width: 100%;
         height: auto;
-        padding-bottom: 2%;
     }
 
     #logo {
-        padding: 10px;
     }
     
    
