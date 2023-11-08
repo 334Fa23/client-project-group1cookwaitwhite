@@ -395,6 +395,8 @@ print {
     #logo {
         padding: 10px;
     }
+    
+   
 
 
     /* Style rules for nav area */
@@ -465,6 +467,19 @@ print {
     text-align: left;
     padding-top: 40px;
 }
+    
+/*Travel Packages*/
+    .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 100px;
+    width: 100%;
+
+}
+
+
+    
+    
 
 }
 
