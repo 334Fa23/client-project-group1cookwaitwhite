@@ -380,6 +380,7 @@ print {
         padding-left: 10%;
         padding-right: 10%;
         padding-top: 2%;
+        padding-bottom: 2%;
         display: grid;
         grid: 100px / 1fr 6fr;
         grid-gap: 10px;
@@ -399,7 +400,7 @@ print {
 
     .tablet-desktop {
         text-align: center;
-        padding-top: 10px;
+        padding-top: 5%;
     }
 
     .anav {
