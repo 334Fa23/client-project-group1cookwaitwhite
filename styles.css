@@ -13,10 +13,8 @@ main {
 body {
     background-color: #ffffff;
 }
-img src {
-    width;70%;
-    height: auto;
-}
+
+container {}
 
 /* Style rules for mobile viewport */
 
@@ -77,17 +75,13 @@ main {
     text-decoration-color: #25683B;
 }
 
-/*lilly*/
 h1 {
-    font-family: "DM Sans", "Gill Sans MT", sans-serif;
-    font-size: 1.15em;
-    text-align: center;
-    padding-top;10%;
-    padding-bottom: 10%;
+    font-family: Tropikal, Perpetua, serif;
+    font-size: 2.5em;
 }
 
 h2 {
-    font-family: "DM Sans", "Gill Sans MT", sans-serif;
+    font-family: Tropikal, Perpetua, serif;
     font-size: 1.75em;
 }
 
@@ -134,14 +128,14 @@ textarea {
 
 .colcontact2 {
     display: inline-block;
-    padding-right: 100px;
-    padding-left: 100px;
+padding-left: 40px;
+    padding-right: 40px;
 }
 
 .iconresponsive {
     width: 40px;
     height: 40px;
-    padding-left: 225px;
+    padding-left: 180px;
 }
 
 /* Events Page CSS */
@@ -462,6 +456,7 @@ print {
     padding-top: 50px;
 }
 
+    
 .colevents2 {
     text-align: left;
     padding-top: 150px;
@@ -472,6 +467,14 @@ print {
     padding-top: 40px;
 }
     
+/* Contact Page */
+    .colcontact2 {
+    display: inline-block;
+padding-left: 100px;
+    padding-right: 100px;
+}
+
+
 /*Travel Packages*/
     .grid-container2 {
     display: grid;
