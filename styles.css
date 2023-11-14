@@ -161,7 +161,7 @@ textarea {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     width: 80%;
     margin: auto;
 
@@ -475,7 +475,6 @@ print {
 
 }
 
-
     
     
 
@@ -534,11 +533,17 @@ print {
         font-size: 1.5em;
         margin-left: .7em;
     }
+    
+    /*Style rule for External Companies*/
+    .grid-container {
+    grid-template-columns: auto;
 
     /* Desktop Viewport: Style Rules for main content */
     main {
         clear: left;
     }
+    
+
 
 }
 
