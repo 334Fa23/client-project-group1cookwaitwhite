@@ -134,14 +134,14 @@ textarea {
 
 .colcontact2 {
     display: inline-block;
-    padding-right: 100px;
-    padding-left: 100px;
+padding-left: 40px;
+    padding-right: 40px;
 }
 
 .iconresponsive {
     width: 40px;
     height: 40px;
-    padding-left: 225px;
+    padding-left: 180px;
 }
 
 /* Events Page CSS */
@@ -462,6 +462,7 @@ print {
     padding-top: 50px;
 }
 
+    
 .colevents2 {
     text-align: left;
     padding-top: 150px;
@@ -470,6 +471,17 @@ print {
 .colevents3 {
     text-align: left;
     padding-top: 40px;
+}
+    
+/* Contact Page */
+    .colcontact2 {
+    display: inline-block;
+padding-left: 100px;
+    padding-right: 100px;
+}
+
+.iconresponsive {
+    padding-left: 225px;
 }
     
 /*Travel Packages*/
