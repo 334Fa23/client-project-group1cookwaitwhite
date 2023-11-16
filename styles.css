@@ -161,7 +161,7 @@ padding-left: 40px;
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     width: 80%;
     margin: auto;
 
@@ -176,6 +176,29 @@ padding-left: 40px;
     height: auto;
     width: 100%;
 }
+
+/*Travel Packages*/
+
+.packagecol {
+    padding-bottom: 10px
+}
+
+.packageimg {
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 100px;
+    width: 100%;
+
+}
+
+
 
 
 /*Testimonials*/
@@ -242,7 +265,7 @@ padding-left: 40px;
 
 .grid-container2 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     grid-column-gap: 100px;
     width: 100%;
 
@@ -484,7 +507,6 @@ padding-left: 100px;
 
 }
 
-
     
     
 
@@ -543,11 +565,26 @@ print {
         font-size: 1.5em;
         margin-left: .7em;
     }
+    
+    /*Style rule for External Companies*/
+    .grid-container {
+    grid-template-columns: auto;
+    }
+    
+    /*Style rule for Travel Packages*/
+.grid-container2 {
+    grid-template-columns: auto;
+
+}
+
+
 
     /* Desktop Viewport: Style Rules for main content */
     main {
         clear: left;
     }
+    
+
 
 }
 
