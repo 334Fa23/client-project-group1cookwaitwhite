@@ -159,7 +159,7 @@ padding-left: 40px;
 
 /*External comapnaies*/
 
-.grid-container {
+.Externalgrid {
     display: grid;
     grid-template-columns: auto;
     width: 80%;
@@ -167,7 +167,7 @@ padding-left: 40px;
 
 }
 
-.grid-item {
+.Externalitem {
     padding: 100px;
 
 }
@@ -376,7 +376,15 @@ print {
     .gridform {
         grid-template-columns: 1fr;
     }
+    
+    /*External comapnies*/
+    .Externalgrid{
+    grid-template-columns: auto;
+    
+    }
+                    
 
+  
 
 
 }
@@ -507,6 +515,14 @@ padding-left: 100px;
 
 }
 
+/*External companies*/
+    .Externalgrid {
+    display: grid;
+    grid-template-columns: auto;
+    width: 80%;
+    margin: auto;
+}
+    
     
     
 
@@ -567,13 +583,16 @@ print {
     }
     
     /*Style rule for External Companies*/
-    .grid-container {
-    grid-template-columns: auto;
+    .Externalgrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: auto;
     }
     
     /*Style rule for Travel Packages*/
 .grid-container2 {
-    grid-template-columns: auto;
+    grid-template-columns: auto auto auto;
 
 }
 
@@ -593,7 +612,8 @@ print {
     #container {
         width: 1920px;
         margin: 0 auto;
-    }
+}
+    
 }
 
 /* Media Query for Print */
