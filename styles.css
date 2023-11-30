@@ -167,8 +167,7 @@ padding-left: 40px;
 
 }
 
-.Externalitem {
-    padding: 100px;
+
 
 }
 
@@ -521,6 +520,10 @@ padding-left: 100px;
     grid-template-columns: auto;
     width: 80%;
     margin: auto;
+    }
+        
+    .Externalitem {
+    padding: 20px;
 }
     
     
@@ -528,10 +531,10 @@ padding-left: 100px;
 
 }
 
-}
+
 
 /* Media Query for Desktop Viewport */
-@media screen and (min-width: 1015px),
+@media screen and (min-width: 769px),
 print {
 
     #container {
