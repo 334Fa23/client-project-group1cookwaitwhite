@@ -511,7 +511,7 @@ padding-left: 100px;
 /*Travel Packages*/
     .grid-container2 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     grid-column-gap: 100px;
     width: 100%;
 
