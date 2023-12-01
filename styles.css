@@ -97,6 +97,15 @@ h2 {
     font text-decoration-color: #25683B;
 }
 
+.about1 {
+    font-style: italic;
+}
+
+.teamimages {
+    width: 50%;
+    height: auto;
+}
+
 /* Contact Page CSS */
 .gridform {
     background-color: #25683B;
@@ -136,6 +145,10 @@ padding-left: 40px;
     width: 40px;
     height: 40px;
     padding-left: 180px;
+}
+
+.socialcontact {
+    align-content: left;
 }
 
 /* Events Page CSS */
@@ -578,8 +591,16 @@ padding-left: 100px;
     .Externalitem {
     padding: 20px;
 }
+
+/* About */
+    .teamimages {
+    width: 20%;
+    height: auto;
+}
     
-    
+    .gridemail {
+        color: black;
+    }
     
 
 }
