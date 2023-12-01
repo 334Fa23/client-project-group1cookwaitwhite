@@ -273,6 +273,56 @@ padding-left: 40px;
 
 }
 
+/*Home page*/
+.Homepagephoto {
+ 
+}
+
+.wording {
+    text-align: center;
+}
+
+.Homecontainer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 100px;
+    width: 100%;
+}
+
+.Homepageinfo {
+    text-align: center;
+    padding: 50px;
+}
+
+.Greenstripe {
+    background-color: #25683B;
+    padding: 10px;
+    text-align:center;
+    color: white;
+}
+
+.logoimg {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 5px;
+    width: auto;
+    height: auto;
+}
+
+.box2 {
+    padding: 2px;
+    height: 100px;
+    width: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+
+
+
 
 
 
@@ -601,7 +651,16 @@ print {
     grid-template-columns: auto auto auto;
 
 }
+    
+    /*Style rule for home page*/
+    .Homecontainer {
+    grid-template-columns: auto auto auto;
+    
+}
 
+   
+
+    
 
 
     /* Desktop Viewport: Style Rules for main content */
@@ -609,7 +668,6 @@ print {
         clear: left;
     }
     
-
 
 }
 
