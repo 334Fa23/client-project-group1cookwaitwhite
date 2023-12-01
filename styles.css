@@ -447,6 +447,27 @@ print {
     grid-template-columns: auto;
     
     }
+    
+    /*Logo images on Home page*/
+    
+    .logoimg {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    width: auto;
+    height: auto;
+}
+
+.box2 {
+    padding: 2px;
+    height: 100px;
+    width: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
                     
 
   
@@ -603,6 +624,26 @@ padding-left: 100px;
     }
     
 
+}
+
+  /*Logo images on Home page*/
+    
+    .logoimg {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    width: auto;
+    height: auto;
+}
+
+.box2 {
+    padding: 2px;
+    height: 100px;
+    width: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 
